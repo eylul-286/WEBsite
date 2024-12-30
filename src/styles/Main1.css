@@ -1,0 +1,231 @@
+body {
+  background-color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.icon-A {
+  width: 100%;
+  max-width: 1920px;
+  height: auto; 
+  margin-top: -20px;
+  margin-left: -45px;
+  justify-content: flex-start;
+
+
+}
+
+
+.card {
+
+  max-width: 600px; 
+  background-color: #FFFFFFD9;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom:0px;
+  margin-right: 1000px;
+  
+}
+
+.card-title {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 2rem; 
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.card-paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-left: 0;
+  color: #595566;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+}
+
+.button-service {
+  background-color: #01060b;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 45px;
+}
+
+.button-service:hover {
+  background-color: #0056b3;
+}
+
+.button-not {
+  background-color: #f6f7f6;
+  color: #030303;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-not img {
+  margin-right: 10px;
+  
+}
+
+.button-not:hover {
+  background-color: #18b62d;
+}
+
+
+.marka {
+  background-color: #fbfdfc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  margin-top: 250px;
+}
+
+
+
+/* About Us Kısmı */
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: white;
+  max-width: 1200px;
+}
+
+.about-us {
+  opacity: 1;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-label {
+  display: inline-block;
+  background-color: #ffcc00;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.parag1 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #181818;
+  margin-top: 0;
+}
+
+.parag2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #595566;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: Cabin;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.service-info {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.service-item {
+  background-color: #F6F6F6;
+  width: 150px;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.business-icon,
+.happy-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.dort,
+.yuz {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.bus,
+.hap {
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .icon-A {
+    width: 100%;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .button-service,
+  .button-not {
+    padding: 10px 20px;
+  }
+
+  .marka {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+}
